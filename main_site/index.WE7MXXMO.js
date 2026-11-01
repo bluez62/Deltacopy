@@ -11041,7 +11041,7 @@
               , i = Math.floor(Math.random() * 12) / 3
               , a = document.createElement("img");
             a.setAttribute("class", "absolute image-pixel animate-ch5-star md:scale-125 lg:scale-150"),
-            a.setAttribute("src", `/assets/images/ch5-star-${n}.png`),
+            a.setAttribute("src", `main_site/assets/images/ch5-star-${n}.png`),
             a.setAttribute("alt", "Star"),
             a.setAttribute("aria-hidden", "true"),
             a.setAttribute("style", `top: ${t}%; right: ${o}%; animation-delay: -${i}s`),
